@@ -8,7 +8,7 @@ import robocode.Rules;
 import robocode.ScannedRobotEvent;
 
 /**
- * A simple initial implementation of Robocode robot. Robocode is a programming
+ * A simple crude implementation of Robocode robot. Robocode is a programming
  * tank game (http://robocode.sourceforge.net/).
  *
  * @author Mohamad Azri Azhar

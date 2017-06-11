@@ -60,7 +60,7 @@ public class Observable<T> {
 
 				future.get(listenerExecutionTimeout, TimeUnit.SECONDS);
 			} catch (InterruptedException | ExecutionException | TimeoutException e) {
-				e.printStackTrace();
+				// Ignore
 			} finally {
 				if (listenerExecutionTimeout > 0 && future != null) {
 					future.cancel(true);
