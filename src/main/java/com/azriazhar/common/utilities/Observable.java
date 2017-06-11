@@ -35,7 +35,7 @@ public class Observable<T> {
 	}
 
 	public void removeListener(final Consumer<T> consumer) {
-		if (null != consumer) {
+		if (consumer != null) {
 			listeners.remove(consumer);
 		}
 	}
