@@ -20,11 +20,6 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>net.sf.robocode</groupId>
-			<artifactId>robocode.api</artifactId>
-			<version>${robocode.api.version}</version>
-		</dependency>
-		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>${junit.version}</version>
